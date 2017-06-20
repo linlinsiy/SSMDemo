@@ -53,8 +53,8 @@
 	</bean>
 	 
 	 <!-- 配置静态资源文件的解析，包括js、css、img.... -->
-	 <mvc:resources location="/js/" mapping="/js/**"/><!-- /**表示拦截文件夹下的所有文件，包括子路径 -->
+<!--	 <mvc:resources location="/js/" mapping="/js/**"/>&lt;!&ndash; /**表示拦截文件夹下的所有文件，包括子路径 &ndash;&gt;
 	 <mvc:resources location="/css/" mapping="/css/**"/>
-	 <mvc:resources location="/img/" mapping="/img/**"/>
+	 <mvc:resources location="/img/" mapping="/img/**"/>-->
 
 </beans>

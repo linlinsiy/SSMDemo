@@ -7,5 +7,4 @@
 
     <import resource="spring-dao.xml"/>
     <import resource="spring-service.xml"/>
-    <import resource="spring-transaction.xml"/>
 </beans>
