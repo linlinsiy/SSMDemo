@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
  * Created by hafiz.zhang on 2016/8/27.
  */
 public class CustomExceptionResolver implements HandlerExceptionResolver {
-    @Override
+
     public ModelAndView resolveException(HttpServletRequest request, HttpServletResponse response,
                                          Object handler, Exception ex) {
         //handler就是处理器适配器要执行的处理器（只有method方法）
